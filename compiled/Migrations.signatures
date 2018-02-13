@@ -1,0 +1,4 @@
+445df0ac: last_completed_migration()
+8da5cb5b: owner()
+fdacd576: setCompleted(uint256)
+0900f010: upgrade(address)
