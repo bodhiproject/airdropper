@@ -19,8 +19,4 @@ contract Airdropper is Ownable {
         }
         return(i);
     }
-
-    function test(uint256 _first, uint256[] _second, bool _third, address[] _fourth, address _fifth) public pure {
-
-    }
 }
