@@ -1,4 +1,4 @@
 ad8733ca: multisend(address,address[],uint256[])
 8da5cb5b: owner()
 f2fde38b: transferOwnership(address)
-690756f7: transferRemaining(address)
+973069f8: transferRemaining(address,address,uint256)
