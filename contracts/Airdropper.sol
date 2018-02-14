@@ -19,4 +19,11 @@ contract Airdropper is Ownable {
         }
         return(i);
     }
+
+    function transferAllBackToToken(address _tokenAddr)
+        onlyOwner
+        external
+    {
+        ERC20(_tokenAddr).transfer(_tokenAddr, this.balance);
+    }
 }
