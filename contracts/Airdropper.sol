@@ -20,10 +20,10 @@ contract Airdropper is Ownable {
         return(i);
     }
 
-    function transferRemaining(address _tokenAddr)
+    function transferRemaining(address _tokenAddr, address _recipient, uint256 _botAmount)
         onlyOwner
         external
     {
-        ERC20(_tokenAddr).transfer(_tokenAddr, this.balance);
+        ERC20(_tokenAddr).transfer(_recipient, _botAmount);
     }
 }
