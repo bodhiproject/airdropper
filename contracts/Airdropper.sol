@@ -20,7 +20,7 @@ contract Airdropper is Ownable {
         return(i);
     }
 
-    function transferAllBackToToken(address _tokenAddr)
+    function transferRemaining(address _tokenAddr)
         onlyOwner
         external
     {
